@@ -1,0 +1,11 @@
+list1 = ['Hello', 'students']
+list2 = ['everyone', 'dear']
+
+
+Havaqvac_cucak = []
+
+for word1 in list1:
+    for word2 in list2:
+        Havaqvac_cucak .append(f"{word1} {word2}")
+
+print(Havaqvac_cucak )
