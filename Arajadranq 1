@@ -1,0 +1,16 @@
+import random
+
+a = random.randint(10, 100)
+print(f"a = {a}")
+divisors = []  
+
+for i in range(1, a + 1):
+    if a % i == 0:
+        divisors.append(i)
+
+print(f"Divisors of {a}: {divisors}")
+
+if len(divisors) == 2:
+    print(f"{a}_y Parz tiv e")
+else:
+    print(f"{a}-y Parz tiv che")
