@@ -3,6 +3,5 @@ number = int(input("Enter a number: "))
 sum_of_digits = sum(int(digit) for digit in str(number))
 print(f"Gumary: {sum_of_digits}")
 
-
 reversed_sum = int(str(sum_of_digits)[::-1])
 print(f"texapoxeluc heto: {reversed_sum}")
